@@ -4,7 +4,7 @@ import Menu from './Menu';
 
 function Navbar() {
   return (
-    <div>
+    <div id="navbar">
       <Logo />
       <Menu />
     </div>

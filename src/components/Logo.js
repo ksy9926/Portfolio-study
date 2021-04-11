@@ -2,10 +2,9 @@ import React from 'react';
 
 function Logo() {
   return (
-    <div>
-      <i>
-      </i>
-      <a href="#">Harry</a>
+    <div className="navbar__logo">
+      <img src="./images/small-bolt.png" alt="logo" />
+      <a href="#">KSY's Portfolio</a>
     </div>
   );
 }
