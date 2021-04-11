@@ -17,7 +17,8 @@
 
 ## 3. 상세 목표
 0. 필수 이외
-    - 로고만들기 (Canva.com -> Logo)
+    - 로고만들기 (Canva.com -> Logo -> 제작후 png 저장 -> google 검색 white background remover(remove.bg))
+    - 백그라운드 이미지 만들기 (Canva.com)
 1. 기본 인적 사항
     - **필수** : 이름, 이메일주소, 전화번호, Git
     - 인적 사항 전에 간단하게 소개란을 넣어도 좋다.
