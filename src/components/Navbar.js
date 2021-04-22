@@ -4,10 +4,10 @@ import Menu from './Menu';
 
 function Navbar() {
   return (
-    <div id="navbar">
+    <nav id="navbar">
       <Logo />
       <Menu />
-    </div>
+    </nav>
   );
 }
 
