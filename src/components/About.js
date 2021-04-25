@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about" className="section">
+    <section id="about" className="section section__container">
       <h1>About me</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure possimus
@@ -10,65 +10,52 @@ function About() {
         deserunt doloremque laudantium similique corrupti, iusto optio rerum in
         deleniti officia.
       </p>
-      <div class="about__majors">
-        <div class="major">
-          <div class="major__icon">
-            <i class="fab fa-html5"></i>
+      <div className="about__majors">
+        <div className="major">
+          <div className="major__icon">
+            <i className="fab fa-html5"></i>
           </div>
-          <h2 class="major__title">Front-end</h2>
-          <div class="major__description">
+          <h2 className="major__title">Front-end</h2>
+          <div className="major__description">
             HTML, CSS, JavaScript, TypeScript,
-            <br />React, Vue, Web APIs
+            <br />React, Web APIs
           </div>
         </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-mobile"></i>
+        <div className="major">
+          <div className="major__icon">
+            <i className="fas fa-mobile"></i>
           </div>
-          <h2 class="major__title">Mobile</h2>
-          <p class="major__description">
-            Android, iOS, React Native, Flutter,
-            <br />Java, Swift, Kotlin
+          <h2 className="major__title">Database</h2>
+          <p className="major__description">
+            MySQL, MongoDB, SQLite
+            <br />SQLAlchemy
           </p>
         </div>
-        <div class="major">
-          <div class="major__icon">
-            <i class="fas fa-server"></i>
+        <div className="major">
+          <div className="major__icon">
+            <i className="fas fa-server"></i>
           </div>
-          <h2 class="major__title">Back-end</h2>
-          <p class="major__description">
-            Java, JavaScript, Go, NodeJS,
-            <br />Rest APIs, GraphGL
+          <h2 className="major__title">Back-end</h2>
+          <p className="major__description">
+            Python, Flask, NodeJS,
+            <br />Rest APIs
           </p>
         </div>
       </div>
-      <div class="about__jobs">
-        <div class="job">
+      <div className="about__jobs">
+        <div className="job">
           <img
-            src="imgs/jobs/logo-samsung.png"
-            alt="samsung"
-            class="job__logo"
+            src="./images/elice_autobicycle.png"
+            alt="elice"
+            className="job__logo"
           />
-         <div class="job__description">
-          <p class="job__name">
-            Currently working at Samsung as Software Engineer
+         <div className="job__description">
+          <p className="job__name">
+            Currently studying at Elice AI Track as racer
           </p>
-          <p class="job__period">2019 Sept - Until now</p>
+          <p className="job__period">2020 Dec - Until now</p>
          </div>
         </div>
-        <div class="job">
-          <img
-            src="imgs/jobs/logo-samsung.png"
-            alt="samsung"
-            class="job__logo"
-          />
-          <div class="job__description">
-            <p class="job__name">
-              Currently working at Samsung as Software Engineer
-            </p>
-            <p class="job__period">2019 Sept - Until now</p>
-           </div>
-          </div>
       </div>
     </section>
   );

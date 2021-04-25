@@ -177,7 +177,6 @@ p {
 .section {
   padding: 50px;
   text-align: center;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -231,6 +230,10 @@ p {
 .job__description {
   margin: 0 16px;
   text-align: left;
+}
+
+.job__logo {
+  height: 100px;
 }
 
 .job__name,
