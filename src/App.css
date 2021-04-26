@@ -446,13 +446,13 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-light-blue);
 }
 
 .contact__title,
 .contact__email,
 .contact__rights {
-  color: var(--color-white);
+  color: var(--color-dark-grey);
 }
 
 .contact__title {
@@ -467,7 +467,7 @@ p {
 
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-yellow);
+  color: var(--color-dark-pink);
 }
 
 /* For below 768px screen width */
