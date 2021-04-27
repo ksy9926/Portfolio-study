@@ -23,22 +23,22 @@ function About() {
         </div>
         <div className="major">
           <div className="major__icon">
-            <i className="fas fa-mobile"></i>
-          </div>
-          <h2 className="major__title">Database</h2>
-          <p className="major__description">
-            MySQL, MongoDB, SQLite
-            <br />SQLAlchemy
-          </p>
-        </div>
-        <div className="major">
-          <div className="major__icon">
             <i className="fas fa-server"></i>
           </div>
           <h2 className="major__title">Back-end</h2>
           <p className="major__description">
             Python, Flask, NodeJS,
             <br />Rest APIs
+          </p>
+        </div>
+        <div className="major">
+          <div className="major__icon">
+            <i className="fas fa-database"></i>
+          </div>
+          <h2 className="major__title">Database</h2>
+          <p className="major__description">
+            MySQL, MongoDB, SQLite
+            <br />SQLAlchemy
           </p>
         </div>
       </div>
