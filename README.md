@@ -49,3 +49,5 @@
 - Ver 1.0
 
 ## 5. FAQ
+  - Q. 로컬에서 실행 시 이미지가 안 뜹니다!
+  - A. package.json 의 `"homepage": "http://ksy9926.github.io/Portfolio-study",` 를 잠시 지운후 실행! 해당 코드는 npm run deploy 시에 필요한 코드
