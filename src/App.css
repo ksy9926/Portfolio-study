@@ -16,6 +16,7 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-light-black: #242526;
 
   /* Font size */
   --font-large: 48px;
@@ -43,15 +44,16 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
+  margin: 86px 0 0 0;
   cursor: default;
-  /* background-color: var(--color-light-blue); */
+  color: white;
+  background-color: var(--color-black);
 }
 
 a {
   text-decoration: none;
-  /* color: var(--color-white); */
-  color: black;
+  color: var(--color-white);
+  /* color: black; */
 }
 
 ul {
@@ -73,45 +75,47 @@ button {
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
-  color: var(--color-black);
+  /* color: var(--color-black); */
   margin: 16px 0px;
 }
 
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  color: var(--color-black);
+  /* color: var(--color-black); */
   margin: 8px 0;
 }
 
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--font-regular);
-  color: var(--color-black);
+  /* color: var(--color-black); */
   margin: 8px 0;
 }
 
 p {
   font-size: var(--font-regular);
   font-weight: var(--font-regular);
-  color: var(--color-black);
+  /* color: var(--color-black); */
   margin: 4px 0;
 }
 
 /* Navbar */
 #navbar {
+  width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 100;
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: var(--color-light-blue);
+  margin-top: -86px;
+  background-color: var(--color-light-black);
 }
 
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  /* color: white; */
-  color: black;
 }
 
 .navbar__menu {
@@ -121,8 +125,6 @@ p {
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  /* color: var(--color-white); */
-  color: black;
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
@@ -146,7 +148,6 @@ p {
 
 /* Home */
 #home {
-  background: url('images/background.png') center/cover no-repeat;
   padding: 40px;
   text-align: center;
 }
@@ -198,8 +199,8 @@ p {
   line-height: 170px;
   font-size: 70px;
   margin: auto;
-  color: var(--color-blue);
-  border: 1px solid var(--color-blue);
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
   border-radius: 50%;
   margin-bottom: 16px;
 }
@@ -215,7 +216,7 @@ p {
 
 .major__title,
 .major__description {
-  color: var(--color-dark-grey);
+  /* color: var(--color-dark-grey); */
 }
 
 .major__description {
@@ -238,7 +239,7 @@ p {
 
 .job__name,
 .job__period {
-  color: var(--color-light-grey);
+  /* color: var(--color-light-grey); */
 }
 
 .job__name {
@@ -252,7 +253,7 @@ p {
 /* Skill */
 
 #skills {
-  background-color: var(--color-yellow);
+  /* background-color: var(--color-yellow); */
 }
 
 .skillset {
@@ -314,6 +315,7 @@ p {
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
   padding: 8px 48px;
+  color: white;
 }
 
 .category__btn.active,
@@ -437,7 +439,7 @@ p {
 }
 
 .testimonial__speech-bubble p {
-  color: var(--color-light-grey);
+  /* color: var(--color-light-grey); */
 }
 
 .testimonial__speech-bubble a {
@@ -446,13 +448,13 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-light-blue);
+  /* background-color: var(--color-light-blue); */
 }
 
 .contact__title,
 .contact__email,
 .contact__rights {
-  color: var(--color-dark-grey);
+  /* color: var(--color-dark-grey); */
 }
 
 .contact__title {

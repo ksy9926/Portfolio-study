@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 function Project() {
+  const projectRef = useRef()
+
   return (
-    <section id="work" className="section">
+    <section ref={projectRef} id="work" className="section">
       <div className="section__container">
         <h1>My work</h1>
         <h3>Projects</h3>

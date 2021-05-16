@@ -5,7 +5,7 @@ function Home() {
     <section id="home">
         <img
           src="./images/harry.jpg"
-          alt="KSY's profile photo"
+          alt="KSY's profile"
           className="home__avatar" />
         <h1 className="home__title">Hello, <br />I'm Front-end engineer Sooyoung!</h1>
         <h2 className="home__description">Now I'm studying in Elice AI Track</h2>

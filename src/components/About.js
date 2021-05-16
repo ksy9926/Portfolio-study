@@ -17,8 +17,8 @@ function About() {
           </div>
           <h2 className="major__title">Front-end</h2>
           <div className="major__description">
-            HTML, CSS, JavaScript, TypeScript,
-            <br />React, Web APIs
+            HTML, CSS, JavaScript,
+            <br />React, TypeScript
           </div>
         </div>
         <div className="major">
@@ -27,8 +27,8 @@ function About() {
           </div>
           <h2 className="major__title">Back-end</h2>
           <p className="major__description">
-            Python, Flask, NodeJS,
-            <br />Rest APIs
+            Python, Flask,
+            <br />NodeJS
           </p>
         </div>
         <div className="major">
